@@ -1,0 +1,9 @@
+/* adds the general styles I want */
+* {
+  margin: 0;
+  padding: 0;
+  /* I've learned that by setting box-sizing to border box,
+  I make sure that our styling with the box model will respect
+   the declared width and height */
+  box-sizing: border-box; 
+}
