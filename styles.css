@@ -1,5 +1,6 @@
 /* adds the general styles I want */
 * {
+  background-color: #fefcfb;
   margin: 0;
   padding: 0;
   /* I've learned that by setting box-sizing to border box,
@@ -7,3 +8,4 @@
    the declared width and height */
   box-sizing: border-box; 
 }
+
