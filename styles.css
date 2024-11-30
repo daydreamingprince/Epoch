@@ -9,3 +9,23 @@
   box-sizing: border-box; 
 }
 
+/* experimental (here I'm going to try out the typewriter text effect in css */
+/* the effect doesn't look as good as we wanted it to be but the idea is there for now */
+.typed-out {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  font-size: 1.6rem;
+  width: 0;
+  white-space: nowrap;
+  animation: 
+    typing 30s steps(400, end) forwards;
+}
+
+.container {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
